@@ -1,0 +1,24 @@
+header, footer {
+    text-align: center;
+    background-color: gray;
+    max-width: 600px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1, h3 {
+    font-family: 'Source Serif Pro', serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+#lastupdate {
+    color: blue;
+}
+
+#headshot {
+    max-width: 150px;
+    padding: 5px;
+}
+hr {
+    margin: 0px;
+    max-width: 580px;
+}
