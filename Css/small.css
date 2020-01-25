@@ -1,6 +1,6 @@
 header, footer {
     text-align: center;
-    background-color: gray;
+    background-color: #E94B3CFF;
     max-width: 600px;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -11,7 +11,7 @@ h1, h3 {
 
 
 #lastupdate {
-    color: blue;
+    color: #2D2926FF;
 }
 
 #headshot {
@@ -19,6 +19,6 @@ h1, h3 {
     padding: 5px;
 }
 hr {
-    margin: 0px;
+    margin: auto;
     max-width: 580px;
 }
