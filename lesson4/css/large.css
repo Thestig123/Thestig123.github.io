@@ -1,0 +1,13 @@
+@media only screen and (min-width: 64rem) {
+    nav ul.hide {
+        display: flex;
+        justify-content: space-between;
+    }
+    body {
+        max-width: 64rem;
+    }
+    nav ul a {
+        border-top: none
+        
+    }
+}
