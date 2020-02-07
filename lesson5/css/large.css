@@ -61,4 +61,9 @@
         padding: 10px;
         border: 1px solid;
     }
+
+    table {
+        background-image: radial-gradient(#FFB800, #FF5714);
+        border-radius: 10px;
+    }
 }

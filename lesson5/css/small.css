@@ -129,6 +129,12 @@ main div section div {
     display: none;
 }
 
+#fridaybanner {
+    display: block;
+    padding: 10px;
+    background-color: #FFB800;
+}
+
 .clearfix:after {
     content: "";
     display: table;
