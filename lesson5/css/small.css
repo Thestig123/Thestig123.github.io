@@ -1,0 +1,112 @@
+/*
+color scheme colors
+#FCD9BA - Peach Puff - accent background color
+#0D117C - Dark Imperial Blue - Link color
+#FFB800 - Selective Yellow - background color
+#FF5714 - Orioles Orange - Accent background color
+*/
+
+/* center the entire body */
+body {
+    background-color: #FCD9BA;
+    text-align: center;
+    margin: auto;
+    max-width: 450px;
+}
+
+/* banner for design */
+header, footer {
+    background-color: #FF5714;
+    padding: 10px;
+}
+
+header section {
+    display: flex;
+    display: block;
+    flex: 1 1 100%;
+}
+
+header h2 {
+    font-size: 1em;
+}
+
+/* === END BANNER === */
+
+/* Nav button design */
+nav {
+    background-color: #FFB800;
+}
+
+nav button {
+    font-size: 1.6em;
+    border: none;
+    background-color: transparent;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    flex: 1 1 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul a {
+    text-decoration: none;
+    white-space: nowrap;
+    border-top: 1px solid black;
+    color: black;
+    padding-right: 44px;
+    padding-left: 44px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.20);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+/* === END NAV BUTTON === */
+
+/* hero w/ image */
+
+.container {
+    position: relative;
+}
+
+#hero {
+    width: 430px;
+}
+
+main div section div {
+    text-align: center;
+    max-width: 180px;
+    height: 150px;
+    padding: 10px;
+}
+.weatherbox {
+    position: absolute;
+    bottom: -10px;
+    left: 30px;
+    border-radius: 20px;
+    background-image: radial-gradient(#FFB800, #FF5714);
+    opacity: 90%;
+}
+
+/* === END HERO W/ IMAGE === */
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -1,0 +1,29 @@
+@media only screen and (min-width: 64rem) {
+    nav ul.hide, nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    body {
+        max-width: 64rem;
+    }
+    nav ul a {
+        border-top: none
+        
+    }
+
+    #hero {
+        width: 63rem;
+    }
+
+    main div section div {
+        padding: 80px;
+        font-size: 1.4rem;
+        height: 200px;
+    }
+    .weatherbox {
+        bottom: 200px;
+        left: 80px;
+        opacity: 90%;
+    }
+}
