@@ -36,6 +36,7 @@
 
     #mappicture {
         display: block;
+        max-width: 280px;
     }
 
     .contactcontainer {
