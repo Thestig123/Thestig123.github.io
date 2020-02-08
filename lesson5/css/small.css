@@ -117,6 +117,17 @@ main div section div {
 }
 /* === END ARTICLE W/ IMAGE === */
 
+/* Contact Information */
+#mappicture {
+    display: none;
+    width: 280px;
+}
+
+/* === END CONTACT INFORMATION === */
+
+.fivedaylong {
+    display: none;
+}
 
 .clearfix:after {
     content: "";
