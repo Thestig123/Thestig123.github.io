@@ -26,4 +26,9 @@
         left: 80px;
         opacity: 90%;
     }
+
+    .articlecontainer {
+        display: flex;
+    }
+    
 }
