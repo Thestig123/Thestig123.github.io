@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <!-- meta data -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Base html for the preston location weather.">
+    <meta name="Author" content="Israel F. Flores">
+
+    <link href="/lesson7/css/normalize.css" rel="stylesheet">
+    <!-- css viewport links -->
+    <link href="/lesson7/css/small.css" rel="stylesheet">
+    <link href="/lesson7/css/medium.css" rel="stylesheet">
+    <link href="/lesson7/css/large.css" rel="stylesheet">
+
+    <!-- typography link -->
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+
+    <!-- title image and title link -->
+    <link rel="shortcut icon" href="/lesson7/images/weathericon.png">
+    <title>Love Your Weather | Gallery</title>
+</head>
+
+<body>
+    <div id="fridaybanner">
+        <h2>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h2>
+    </div>
+    <header>
+        <!-- Banner -->
+        <section>
+            <img src="/lesson7/images/weathericon.png" alt="Picture of sun behind a grey cloud with lighting.">
+            <h1>Love Your Weather</h1>
+        </section>
+        <h2>No need to hate the weather...Love it because your prepared.</h2>
+    </header>
+
+    <!-- Menu options -->
+    <nav class="clearfix">
+        <button onclick="togglemenu()">&#9776</button>
+        <ul id="button" class="hide">
+            <li class="currentpage" id="hidemenu"><a href="#">Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="/lesson7/preston-7.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li class="active"><a href="/lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <div class="gallerygrid">
+        <picture>
+            <img class="placeholder" src="/lesson7/Images/imageplaceholder.jpeg" 
+            data-src="/lesson7/images/gallery/weatherpic1.jpg"
+            alt="Sun set in a green field">
+            <h3 class="gallerywording">sunset</h3>
+        </picture>
+    
+        <picture>
+            <img class="placeholder" src="/lesson7/Images/imageplaceholder.jpeg" 
+            data-src="/lesson7/images/gallery/weatherpic2.jpg"
+            alt="sunshine shinning through clouds">
+            <h3 class="gallerywording">Cloudy</h3>
+        </picture>
+    
+        <picture>
+            <img class="placeholder" src="/lesson7/Images/imageplaceholder.jpeg" 
+            data-src="/lesson7/images/gallery/weatherpic3.jpg"
+            alt="side angle of cliff and sunset">
+            <h3 class="gallerywording">Cliff Sunset</h3>
+        </picture>
+    
+        <picture>
+            <img class="placeholder" src="/lesson7/Images/imageplaceholder.jpeg" 
+            data-src="/lesson7/images/gallery/weatherpic4.jpg"
+            alt="man riding his bike in pouring rain">
+            <h3 class="gallerywording">Wonderful Rain</h3>
+        </picture>
+    
+        <picture>
+            <img class="placeholder" src="/lesson7/Images/imageplaceholder.jpeg" 
+            data-src="/lesson7/Images/gallery/weatherpic5.jpg"
+            alt="Women holding red umbrella in a wet alleyway">
+            <h3 class="gallerywording">Little Red Umbrella</h3>
+        </picture>
+    
+        <picture>
+            <img class="placeholder" src="/lesson7/Images/imageplaceholder.jpeg" 
+            data-src="/lesson7/images/gallery/weatherpic6.jpg"
+            alt="view of in between large buildings of wet streets">
+            <h3 class="gallerywording">City Rain</h3>
+        </picture>
+
+        <picture>
+            <img class="placeholder" src="/lesson7/Images/imageplaceholder.jpeg" 
+            data-src="/lesson7/images/gallery/weatherpic7.jpg"
+            alt="Snow covered pine trees">
+            <h3 class="gallerywording">Night Snow</h3>
+        </picture>
+    
+        <picture>
+            <img class="placeholder" src="/lesson7/Images/imageplaceholder.jpeg" 
+            data-src="/lesson7/images/gallery/weatherpic8.jpg"
+            alt="sun shinning down on snow covered pine trees">
+            <h3 class="gallerywording">Morning Snow</h3>
+        </picture>
+    
+        <picture>
+            <img class="placeholder" src="/lesson7/Images/imageplaceholder.jpeg" 
+            data-src="/lesson7/images/gallery/weatherpic9.jpg"
+            alt="squirrel eating something in the snow">
+            <h3 class="gallerywording">Squirrel Snow!!</h3>
+        </picture>
+
+    </div>
+    <footer>
+        <!-- Footer with basic information -->
+        <section>
+            <h4>&copy Love Your Weather | Israel Flores | <a href="#">Terms of Use</a></h4>
+            <h4>Last Update : <span id="currentdate"></span></h4>
+            <script src="/lesson7/js/currentdate.js"></script>
+        </section>
+    </footer>
+    <script src="/lesson7/js/togglemenu.js"></script>
+    <script src="/lesson7/js/lazyload.js"></script>
+</body>
+
+</html>
