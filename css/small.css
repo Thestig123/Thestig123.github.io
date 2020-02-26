@@ -1,0 +1,23 @@
+header, footer {
+    text-align: center;
+    background-color: #E94B3CFF;
+    max-width: 600px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1, h3 {
+    font-family: 'roboto';
+}
+
+
+#lastupdate {
+    color: #2D2926FF;
+}
+
+#headshot {
+    max-width: 150px;
+    padding: 5px;
+}
+hr {
+    margin: auto;
+    max-width: 580px;
+}

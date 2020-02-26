@@ -1,0 +1,69 @@
+@media only screen and (min-width: 64rem) {
+
+    nav ul.hide,
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    body {
+        max-width: 64rem;
+    }
+
+    nav ul a {
+        border-top: none
+    }
+
+    #hero {
+        width: 63rem;
+    }
+
+    main div section div {
+        padding: 50px;
+        font-size: 1.4rem;
+        height: 200px;
+    }
+
+    .weatherbox {
+        bottom: 170px;
+        left: 80px;
+        opacity: 90%;
+    }
+
+    .articlecontainer {
+        display: flex;
+    }
+
+    #mappicture {
+        display: block;
+        max-width: 280px;
+    }
+
+    .contactcontainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contactcontainer section {
+        padding: 15px;
+    }
+
+    .fivedaylong {
+        display: block;
+    }
+
+    table.center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    table tr, th {
+        padding: 10px;
+        border: 1px solid;
+    }
+
+    table {
+        background-image: radial-gradient(#FFB800, #FF5714);
+        border-radius: 10px;
+    }
+}
