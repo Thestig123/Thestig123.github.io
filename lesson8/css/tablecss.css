@@ -1,11 +1,12 @@
  body {
      font-family: Ubuntu,sans-serif;
+     text-align: center;
  }
 
  table ,th,tr,td{
      border: 1px solid gray;
      border-collapse: collapse;
-     padding: 10px;
+     padding: 5px;
  }
 
  table {
@@ -28,7 +29,15 @@
      background-color: #e7ffed;
  }
 
- #singlecenter {
+ thead tr:nth-child(1) {
+    background-color: #7fb9c2;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+ }
+
+ tfoot tr td {
      text-align: center;
  }
 
@@ -36,11 +45,3 @@
      background-color: #628ca6;
      color: white;
  }
-
- #datahead {
-    background-color: #7fb9c2;
-    margin-bottom: 5px;
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: black;
-}
