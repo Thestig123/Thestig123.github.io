@@ -21,13 +21,10 @@
     .weatherbox {
         bottom: -10px;
         left: 30px;
-     
-    }
+    }  
 
-    .gallerygrid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
-        padding: 0px;
-    }    
+    form , fieldset{
+        max-width: 80%;
+        
+    }
 }

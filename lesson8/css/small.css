@@ -14,12 +14,16 @@ body {
     max-width: 800px;
 }
 
-body h1,h2,h3,h4 {
+body h1,
+h2,
+h3,
+h4 {
     font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 
 /* banner for design */
-header, footer {
+header,
+footer {
     background-color: #FF5714;
     padding: 10px;
 }
@@ -66,6 +70,7 @@ nav ul a {
     padding-bottom: 15px;
     display: block;
 }
+
 nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.4);
 }
@@ -96,6 +101,7 @@ main div section div {
     height: 150px;
     padding: 10px;
 }
+
 .weatherbox {
     position: absolute;
     bottom: -10px;
@@ -107,15 +113,35 @@ main div section div {
 
 /* === END HERO W/ IMAGE === */
 
-/*Article w/ Image */
-#articleimage {
-    width: 400px;
-}
-
-.articlecontainer p{
+/* === storm center === */
+form {
     padding: 10px;
 }
-/* === END ARTICLE W/ IMAGE === */
+
+form fieldset {
+    display: block;
+    text-align: left;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: grid;
+}
+
+form fieldset div label {
+    padding: 0px;
+}
+
+legend {
+    margin-left: 20px;
+}
+
+input {
+    padding: .5rem;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* ===END STORM CENTER === */
 
 /* Contact Information */
 #mappicture {
@@ -139,32 +165,4 @@ main div section div {
     content: "";
     display: table;
     clear: both;
-}
-
-.gallerygrid {
-    grid-template-columns: 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    max-width: 100%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.gallerygrid picture img {
-    max-width: 100%;
-}
-
-.gallerygrid picture img:hover {
-    box-shadow: 7px -3px 12px 5px rgba(0,0,0,0.79)
-
-}
-
-.gallerywording {
-    padding: 0px;
-    margin: auto;
-    margin-top: -5px;
-    max-width: 400px;
-    text-align: center;
-    background-image: radial-gradient(#FFB800, #FF5714);
-    opacity: 90%;
 }
