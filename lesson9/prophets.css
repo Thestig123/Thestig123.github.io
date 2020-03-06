@@ -1,0 +1,36 @@
+header h1 {
+    color: navy;
+    text-align: center;
+}
+
+main div section {
+    text-align: center;
+    color: navy
+}
+
+main div{
+    display: grid;
+    grid-auto-columns: auto;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+main div section {
+    background: gray;
+}
+
+img {
+    box-shadow: 0px 0px 12px 7px rgba(0,0,0,0.75);
+}
+
+@media only screen and (min-width: 900px) {
+    main div {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+    @media only screen and (min-width: 1350px) {
+        main div {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
