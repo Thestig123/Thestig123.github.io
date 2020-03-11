@@ -114,7 +114,23 @@ main div section div {
 /* === END HERO W/ IMAGE === */
 
 /* === Home === */
+.towns {
+    max-width: 80%;
+    margin: auto;
+}
 
+.towns section {
+    border: solid black 1px; /* dont forget to remove this */
+    padding: 0px;
+    margin: 5px;
+    background-image: radial-gradient(#FFB800, #FF5714);
+}
+
+.towns section img {
+    padding: 10px;
+    max-width: 100%;
+    border-radius: 15px;
+}
 /* ===END HOME === */
 
 /* Contact Information */

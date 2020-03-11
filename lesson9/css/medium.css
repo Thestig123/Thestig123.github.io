@@ -32,4 +32,11 @@
         margin-top: 30%;
         margin-right: 10%;
     }
+
+    .towns  {
+        max-width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
