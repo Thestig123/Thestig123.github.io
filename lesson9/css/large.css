@@ -21,4 +21,7 @@
     .towns {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .forcast section {
+        background-color: black;
+    }
 }

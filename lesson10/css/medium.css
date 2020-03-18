@@ -1,0 +1,33 @@
+@media only screen and (min-width: 36em) {
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: block;
+    }
+
+    .currentpage {
+        display: none;
+    }
+
+    nav ul li.active a {
+        background-color: rgba(0, 0, 0, 0.20);
+    }
+
+    #hero {
+        width: 500px;
+    }
+    .weatherbox {
+        bottom: -10px;
+        left: 30px;
+     
+    }
+
+    .gallerygrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        padding: 0px;
+    }    
+}
