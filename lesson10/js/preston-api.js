@@ -54,7 +54,7 @@ fetch(foreCast)
             icon = 'https://openweathermap.org/img/w/' + foreCast[count].weather[0].icon + '.png'
             }
 
-            image.setAttribute('src',icon);
+            image.setAttribute('src', icon);
 
             day.appendChild(h4);
             day.appendChild(image);
