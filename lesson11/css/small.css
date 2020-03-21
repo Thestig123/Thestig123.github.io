@@ -49,7 +49,7 @@ nav button {
     font-size: 1.6em;
     border: none;
     background-color: transparent;
-    float: left;
+    text-align: left;
 }
 
 nav ul {
