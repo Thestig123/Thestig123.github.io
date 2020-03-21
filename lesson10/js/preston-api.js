@@ -35,9 +35,9 @@ const foreCast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&un
 
 fetch(foreCast)
     .then((response) => response.json())
-    .then((jsObject) => {
+    .then((jsonObject) => {
 
-        const fivedayforecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+        const fivedayforecast = jsonObject.list.filter(x => x.dt_txt.includes('18:00:00'));
         console.log(fivedayforecast)
 
         fivedayforecast.forEach(fivedayforecast => {
@@ -48,10 +48,12 @@ fetch(foreCast)
             h4.innerHTML = `${fivedayforecast.main.temp}` + "&#176 F";
         
             let icon;
+            let description;
 
-            for(let count = 0; count < fivedayforecast.length; count++)
+            for(let count = 0; count < 5; count++)
             {
-            icon = 'https://openweathermap.org/img/w/' + foreCast[count].weather[0].icon + '.png'
+            icon = 'https://openweathermap.org/img/w/' + fivedayforecast.weather[0].icon + '.png'
+            //description = 
             }
 
             image.setAttribute('src', icon);
