@@ -14,6 +14,10 @@
         border-top: none
     }
 
+    header h2 {
+        font-size: 2.7em;
+    }
+
     #hero {
         width: 63rem;
     }
@@ -23,5 +27,21 @@
     }
     .forcast section {
         background-color: black;
+    }
+    .fivedaylong {
+        display: block;
+    }
+    .forecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .forecast section {
+        background-image: radial-gradient(#FFB800, #FF5714);
+        margin: 5px;
+        border-radius: 10px;
+    }
+
+    .gallerygrid {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }

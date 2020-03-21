@@ -30,12 +30,11 @@ footer {
 
 header section {
     display: flex;
-    display: block;
     flex: 1 1 100%;
 }
 
 header h2 {
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 /* === END BANNER === */
@@ -131,7 +130,75 @@ main div section div {
     max-width: 100%;
     border-radius: 15px;
 }
-/* ===END HOME === */
+/* === END HOME === */
+
+/* === STORM CENTER === */
+
+#back-storm-center {
+    text-decoration: none;
+    color: black;
+    background-image: radial-gradient(#FFB800, #FF5714);
+    padding: 15px;
+    max-width: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 10px;
+}
+
+#back-storm-center:hover {
+    box-shadow: 0px 0px 17px 6px rgba(0,0,0,0.75);
+}
+/* === END STORM CENTER === */
+
+/* === Gallery === */
+.gallerygrid {
+    grid-template-columns: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    max-width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.gallerygrid picture img {
+    max-width: 100%;
+}
+
+.gallerygrid picture img:hover {
+    box-shadow: 7px -3px 12px 5px rgba(0,0,0,0.79)
+}
+
+.gallerywording {
+    padding: 0px;
+    margin: auto;
+    margin-top: -5px;
+    max-width: 400px;
+    text-align: center;
+    background-image: radial-gradient(#FFB800, #FF5714);
+    opacity: 90%;
+}
+/* === END GALLERY === */
+
+/* === Storm Center === */
+legend {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+form div {
+    padding: 5px;
+}
+.required {
+    color:red;
+}
+
+form fieldset{
+    border-radius: 10px;
+    text-align: left;
+    white-space: nowrap;
+    margin: 10px;
+    max-width: 80%;
+}
+/* === END STORM CENTER === */
 
 /* Contact Information */
 #mappicture {
