@@ -53,7 +53,6 @@ fetch(foreCast)
             for(let count = 0; count < 5; count++)
             {
             icon = 'https://openweathermap.org/img/w/' + fivedayforecast.weather[0].icon + '.png'
-            //description = 
             }
 
             image.setAttribute('src', icon);
