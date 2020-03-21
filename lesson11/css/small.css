@@ -42,6 +42,7 @@ header h2 {
 /* Nav button design */
 nav {
     background-color: #FFB800;
+    display: grid;
 }
 
 nav button {
@@ -53,9 +54,10 @@ nav button {
 
 nav ul {
     list-style: none;
-    flex: 1 1 100%;
-    padding: 0px;
+    display: block;
     margin: 0px;
+    padding: 0px;
+    text-align: center;
 }
 
 nav ul a {
@@ -63,8 +65,8 @@ nav ul a {
     white-space: nowrap;
     border-top: 1px solid black;
     color: black;
-    padding-right: 44px;
-    padding-left: 44px;
+    padding-right: 54px;
+    padding-left: 54px;
     padding-top: 15px;
     padding-bottom: 15px;
     display: block;
@@ -72,10 +74,13 @@ nav ul a {
 
 nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.4);
+    
 }
 
 nav ul li.active a {
     background-color: rgba(0, 0, 0, 0.20);
+    
+    
 }
 
 nav ul.hide {
