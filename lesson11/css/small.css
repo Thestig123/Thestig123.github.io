@@ -205,6 +205,14 @@ form fieldset{
 }
 /* === END STORM CENTER === */
 
+/* === EVENTS === */
+.events {
+    background-image: radial-gradient(#FFB800, #FF5714);    padding: 5px;
+    border-radius: 10px;
+    max-width: 50%;
+    margin: auto;
+}
+/* === END EVENTS === */
 /* Contact Information */
 #mappicture {
     display: none;

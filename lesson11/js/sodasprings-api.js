@@ -1,4 +1,4 @@
-const currentWeather = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=744fa0fd0a267f14e0b7ed92a900b17a';
+const currentWeather = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=744fa0fd0a267f14e0b7ed92a900b17a';
 
 fetch(currentWeather)
     .then(function (response) {
@@ -31,7 +31,7 @@ fetch(currentWeather)
 
 
 //start on five day forcast
-const foreCast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=744fa0fd0a267f14e0b7ed92a900b17a';
+const foreCast = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=744fa0fd0a267f14e0b7ed92a900b17a';
 
 
 
