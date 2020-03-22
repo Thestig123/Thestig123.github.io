@@ -236,3 +236,7 @@ form fieldset{
     display: table;
     clear: both;
 }
+
+.linkchange {
+    color: black;
+}

@@ -5,7 +5,6 @@ fetch(events)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.log(jsonObject);
         const towns = jsonObject['towns']
 
     
