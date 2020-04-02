@@ -1,0 +1,15 @@
+@import "normalize"; //normalize/reset
+
+@import "variables"; //variables simple as that
+
+@import "small"; //default/small Break Point.
+
+//Medium Break Point
+@media only screen and (min-width: 560px) {
+    @import "medium";
+}
+
+//Large Break Point
+@media only screen and (min-width: 1028px) {
+    @import "large";
+}

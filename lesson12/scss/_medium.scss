@@ -1,0 +1,73 @@
+/* GENERAL WEBPAGE STYLING */
+body {
+    max-width: 700px;
+}
+header {  
+    display: grid;
+    grid-template-columns: 10% 80%;
+    align-items: center;
+} 
+
+/* === END GENERAL WEBPAGE STYLING === */
+
+/* NAV STYLING */
+
+.bannerimage {
+    display: inline;
+}
+.nav1 {
+    display: none;
+}
+.nav2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    background-color: $bodyBackground;
+    background-color: $bannerFooter;
+    border-top: black solid 3px;
+    h3 {
+        margin: 5px;
+        font-family: $titleFontFamily;
+        white-space: nowrap;
+        transition: 0.3s;
+    }
+    h3:hover {
+        background-color: #006d73;
+        padding: 15px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+/* === END NAV STYLING === */
+main section {
+grid-template-columns: 1fr 1fr;
+}
+/* RIVER CARD STYLING */
+
+.calltoaction {
+    margin-top: 5%;
+    margin-bottom:5%;
+    a {
+        padding: 10px 30% 12px 30%;
+    }
+}
+/* === END CALL TO ACTION === */
+
+/* WEATHER BOX STYLING */
+section.weather-info {
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+}
+.weather-info {
+    div {
+        width: 150px;
+    }
+}
+
+#weathertitle {
+    margin-bottom: 10px;
+}
+/* === END WEATHER BOX STYLING */

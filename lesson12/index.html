@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- RESOURCES -->
+<!-- https://www.pexels.com/photo/three-persons-riding-red-inflatable-raft-1615766/ Photo for salmon river -->
+<!-- https://www.pexels.com/photo/photo-of-man-paddling-kayak-in-raging-river-2250521/ photo of Snake River -->
+<head>
+    <!-- meta data for Salmon River Adventures -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="Description" content="html for Salmon River Adventures.">
+    <meta name="Author" content="Israel F. Flores">
+
+    <!-- title for Salmon River Adventures -->
+    <title>Salmon River Adventures</title>
+    <!-- external resource links css/fonts/js/favicon -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel='icon' href="favicon.ico">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;600&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <!-- Salmon River Adventures content start here. -->
+    <header>
+        <div><img src="images/rafting.png" alt="yellow raft with ores"class="bannerimage"></div>
+        <div><h1>ADVENTURE YOU WONT REGRET!</h1></div>
+    </header>
+
+    <nav class="nav1">
+        <div id="circularMenu" class="circular-menu">
+
+            <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+                <i class="fa fa-plus"><img src="images/nav/menu.png" alt="Black outline of Menu button"></i>
+            </a>
+
+            <menu class="items-wrapper">
+                <a href="reservations.html" class="menu-item fa fa"><img src="images/nav/reservations.png" alt="black outlind calander for Reservations"></a>
+                <a href="guide.html" class="menu-item fa fa"><img src="images/nav/guide.png" alt="Black outline map for guide"></a>
+                <a href="contact-us.html" class="menu-item fa fa"><img src="images/nav/contact-us.png" alt="Black outline of telephone for contact us"></a>
+            </menu>
+    </nav>
+
+    <nav class="nav2">
+            <h3><a href="index.html">HOME</a></h3>
+            <h3><a href="guide.html">RIVER GUIDES</a></h3>  
+            <h3><a href="contact-us.html">CONTACT US</a></h3>
+            <h3><a href="reservations.html">RESERVATIONS</a></h3> 
+    </nav>
+
+    <main>  
+        <!-- Salmon River card -->
+        <section class="riverbackground">
+            <div>
+                <h3>Class &#8545; - &#8546; Salmon River</h3>
+                <img src="images/raftingadventures/raftingpic1s.jpg" alt="a few people in a raft heading down a river."> 
+            </div>
+
+            <div>
+                <p>
+                    This is a calm level &#8545; river with beautiful scenery and relaxing water with minimal effort.
+                    This is a great beginner course or one to just enjoy this beautiful river bursting with wild life. So come join us in rafting this beatiful river.
+                </p>
+            </div>
+        </section>
+
+        <!-- Bruneau River card -->
+        <section class="riverbackground">
+            <div>
+                <h3>Class &#8546; - &#8547; Bruneau River</h3>
+                <img src="images/raftingadventures/raftingpic2s.jpg" alt="Group of poeple in a yellow raft in some rapids.">
+            </div>
+    
+            <div>
+                <p>
+                    The Bruneau River is considered one of the most beautiful desert river canyons. Trips can be combined with the more challenging Jarbridge River for a longer wilderness experience. Rafting trips on the Bruneau River are 3-5 days, depending if they begin on the Jarbridge River or the Bruneau itself.
+                </p>
+            </div>
+        </section>
+
+        <!-- Snake River card -->
+        <section class="riverbackground">
+            <div>
+                <h3>Class &#8546; - &#8547; Snake River (Hells Canyon)</h3>
+                <img src="images/raftingadventures/raftingpic3s.jpg" alt="Kayaking in a river of rapids ">
+            </div>
+
+            <div>
+                <p>
+                    While the Snake River is considered Class &#8546; - &#8547;, most of its rapids occur in the first 30 miles. This affords an excellent adrenaline surge at the start and a relaxing scenic journey towards the middle. The beginning stretches lead rafters over rapids such as Wild Sheep and Granite Creek– comparable to the bigger rapids of the Colorado River in the Grand Canyon. River runners can raft the first 34 miles down to Pittsburgh Landing for an exciting three-day trip.
+                </p>
+            </div>
+        </section>
+            <h4 class="calltoaction"><a href="call-to-action.html" class="calltoaction">Call to Action</a></h4>
+        <!-- weather box -->
+        <h4 id="weathertitle">Riggins, Idaho Current Weather</h4>
+        <section class="weather-info">
+            
+        <!-- weather -->
+            <div class="temp-info">
+                <h5>
+                    Temperature: <span id="current-temp"></span> &#8457;<br>
+                    Feels like: <span id="current-feelslike"></span> &#8457;<br>
+                    Humidity: <span id="current-humidity"></span><br>
+                    Wind Speed: <span id="current-windspeed"></span> MPH<br>
+                </h5>
+            </div>
+        <!-- weather image -->
+            <div>
+                <span id="imagesrc"></span> <img src="" alt="" id="icon">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h5>| Israel F. Flores | <a href="http://byui.edu" id="termslink" target="_blank" rel="noopener">Terms & Conditions</a> | <br> Report a problem | Weather Data by Open Weather<br>Last Update<span id=currentdate></span></h5>
+    </footer>
+    <script src="js/currentdate.js"></script>
+    <script src="js/riggins-api.js"></script>
+</body>
+
+</html>
