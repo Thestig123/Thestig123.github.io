@@ -41,33 +41,37 @@ header {
     }
 }
 /* === END NAV STYLING === */
-main section {
+
+/* RIVER CARD STYLING */
+main section.riverbackground{
 grid-template-columns: 1fr 1fr;
 }
-/* RIVER CARD STYLING */
 
-.calltoaction {
-    margin-top: 5%;
-    margin-bottom:5%;
-    a {
-        padding: 10px 30% 12px 30%;
-    }
+main section img {
+    width: 300px;
+}
+/* === END RIVER CARD STYLING === */
+
+/* CALL TO ACTION */
+.calltoaction a{
+  padding: 10px 150px 10px 150px;
 }
 /* === END CALL TO ACTION === */
 
 /* WEATHER BOX STYLING */
 section.weather-info {
-    max-width: 70%;
+    max-width: 80%;
     text-align: center;
     margin: auto;
 }
-.weather-info {
-    div {
-        width: 150px;
-    }
+
+.weathertitle {
+    width: 75%;
+    margin: auto;
 }
 
-#weathertitle {
-    margin-bottom: 10px;
-}
+.weather-info div h5 {
+    padding-right: 15px;
+    }
+
 /* === END WEATHER BOX STYLING */

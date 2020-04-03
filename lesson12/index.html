@@ -24,7 +24,7 @@
 <body>
     <!-- Salmon River Adventures content start here. -->
     <header>
-        <div><img src="images/rafting.png" alt="yellow raft with ores"class="bannerimage"></div>
+        <div><img src="images/rafting.png" alt="yellow raft with ores" class="bannerimage"></div>
         <div><h1>ADVENTURE YOU WONT REGRET!</h1></div>
     </header>
 
@@ -40,6 +40,7 @@
                 <a href="guide.html" class="menu-item fa fa"><img src="images/nav/guide.png" alt="Black outline map for guide"></a>
                 <a href="contact-us.html" class="menu-item fa fa"><img src="images/nav/contact-us.png" alt="Black outline of telephone for contact us"></a>
             </menu>
+            </div>
     </nav>
 
     <nav class="nav2">
@@ -49,12 +50,18 @@
             <h3><a href="reservations.html">RESERVATIONS</a></h3> 
     </nav>
 
-    <main>  
+    <main> 
         <!-- Salmon River card -->
         <section class="riverbackground">
             <div>
                 <h3>Class &#8545; - &#8546; Salmon River</h3>
-                <img src="images/raftingadventures/raftingpic1s.jpg" alt="a few people in a raft heading down a river."> 
+
+                <picture>
+
+                    <source srcset="images/raftingadventures/raftingpic1m.jpg" media="(min-width: 1028px)">
+
+                    <img src="images/raftingadventures/raftingpic1s.jpg" alt="picture of sunny day and grass">
+                </picture>
             </div>
 
             <div>
@@ -69,7 +76,13 @@
         <section class="riverbackground">
             <div>
                 <h3>Class &#8546; - &#8547; Bruneau River</h3>
-                <img src="images/raftingadventures/raftingpic2s.jpg" alt="Group of poeple in a yellow raft in some rapids.">
+
+                <picture>
+
+                    <source srcset="images/raftingadventures/raftingpic2m.jpg" media="(min-width: 1028px)">
+
+                    <img src="images/raftingadventures/raftingpic2s.jpg" alt="picture of sunny day and grass">
+                </picture>
             </div>
     
             <div>
@@ -83,7 +96,12 @@
         <section class="riverbackground">
             <div>
                 <h3>Class &#8546; - &#8547; Snake River (Hells Canyon)</h3>
-                <img src="images/raftingadventures/raftingpic3s.jpg" alt="Kayaking in a river of rapids ">
+                <picture>
+
+                    <source srcset="images/raftingadventures/raftingpic3m.jpg" media="(min-width: 1028px)">
+
+                    <img src="images/raftingadventures/raftingpic3s.jpg" alt="picture of sunny day and grass">
+                </picture>
             </div>
 
             <div>
@@ -92,9 +110,14 @@
                 </p>
             </div>
         </section>
+        <section>
+        <section>
             <h4 class="calltoaction"><a href="call-to-action.html" class="calltoaction">Call to Action</a></h4>
+        </section>
+        <section>
+            <h4 class="weathertitle">Riggins, Idaho Current Weather</h4>
+        </section>
         <!-- weather box -->
-        <h4 id="weathertitle">Riggins, Idaho Current Weather</h4>
         <section class="weather-info">
             
         <!-- weather -->
@@ -111,6 +134,7 @@
                 <span id="imagesrc"></span> <img src="" alt="" id="icon">
             </div>
         </section>
+    </section>
     </main>
 
     <footer>

@@ -1,0 +1,34 @@
+/* GENERAL WEBPAGE STYLING */
+body {
+    max-width: 1028px;
+}
+
+/* === END GENERAL WEBPAGE STYLING === */
+
+/* RIVER CARD STYLING */
+    main section{
+        grid-template-columns: 1fr;
+
+        img {
+            padding-left: 7px;
+        }
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+
+/* === END RIVER CARD STYLING === */
+
+/* CALL TO ACTION */
+
+/* === END CALL TO ACTION */
+
+/* WEATHER BOX STYLING */
+.weathertitle {
+    font-size: 1.5em;
+}
+/* === END WEATHER BOX STYLING === */
