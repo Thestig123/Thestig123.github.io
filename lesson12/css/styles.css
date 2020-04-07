@@ -481,11 +481,11 @@ main section {
   display: grid;
   margin: 8px;
   grid-template-columns: 1fr;
-  max-height: 600px;
+  max-height: 700px;
 }
 
 main section img {
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 main section p {
@@ -570,6 +570,25 @@ footer #termslink {
 }
 
 /* === END WEATHER BOX STYLING */
+/* RIVER GUIDE BOXES */
+main section {
+  background-color: #f0ead6;
+}
+
+.side-info {
+  background-color: #54494b;
+}
+
+.side-info section {
+  background-color: #54494b;
+}
+
+/* === END RIVER GUIDE BOXES */
+.employeecards img {
+  height: 200px;
+  padding-top: 5px;
+}
+
 @media only screen and (min-width: 560px) {
   /* GENERAL WEBPAGE STYLING */
   body {
@@ -638,17 +657,23 @@ footer #termslink {
     padding-right: 15px;
   }
   /* === END WEATHER BOX STYLING */
+  .employeecards img {
+    height: 90%;
+  }
 }
 
 @media only screen and (min-width: 1028px) {
   /* GENERAL WEBPAGE STYLING */
   body {
-    max-width: 1028px;
+    max-width: 1200px;
   }
   /* === END GENERAL WEBPAGE STYLING === */
   /* RIVER CARD STYLING */
   main section {
     grid-template-columns: 1fr;
+  }
+  main section div {
+    max-width: 300px;
   }
   main section img {
     padding-left: 7px;
@@ -658,9 +683,10 @@ footer #termslink {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
+  .employeecards section {
+    grid-template-columns: 1fr 1fr;
+  }
   /* === END RIVER CARD STYLING === */
-  /* CALL TO ACTION */
-  /* === END CALL TO ACTION */
   /* WEATHER BOX STYLING */
   .weathertitle {
     font-size: 1.5em;

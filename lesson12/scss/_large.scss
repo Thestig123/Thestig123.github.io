@@ -1,6 +1,6 @@
 /* GENERAL WEBPAGE STYLING */
 body {
-    max-width: 1028px;
+    max-width: 1200px;
 }
 
 /* === END GENERAL WEBPAGE STYLING === */
@@ -9,6 +9,9 @@ body {
     main section{
         grid-template-columns: 1fr;
 
+        div {
+            max-width: 300px;
+        }
         img {
             padding-left: 7px;
         }
@@ -20,12 +23,12 @@ body {
         grid-template-rows: 1fr 1fr;
     }
 
+    .employeecards section{
+        grid-template-columns: 1fr 1fr;
+    }
+
 
 /* === END RIVER CARD STYLING === */
-
-/* CALL TO ACTION */
-
-/* === END CALL TO ACTION */
 
 /* WEATHER BOX STYLING */
 .weathertitle {

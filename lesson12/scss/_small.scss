@@ -141,9 +141,9 @@ main section {
     display: grid;
     margin: 8px;
     grid-template-columns: 1fr;
-    max-height: 600px;
+    max-height: 700px;
     img {
-        border-radius: 5px;
+        border-radius: 10px;
     }
 
     p {
@@ -228,3 +228,22 @@ footer {
 
 }
 /* === END WEATHER BOX STYLING */
+
+/* RIVER GUIDE BOXES */
+
+main section {
+  background-color: $riverCardBackground;
+}
+.side-info {
+  background-color: $bodyBackground;
+}
+.side-info section {
+  background-color: $bodyBackground;
+}
+
+/* === END RIVER GUIDE BOXES */
+
+.employeecards img {
+  height: 200px;
+  padding-top: 5px;
+}

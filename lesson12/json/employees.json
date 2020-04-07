@@ -1,0 +1,38 @@
+[
+    {
+        "name": "John Square",
+        "photo": 
+            {
+                "image": "johnpic.jpg",
+                "description": "picture of john square"
+            },
+        "certification": "level &#8547; Certificate in Rafting & Kayaking",
+        "experience": "8 years",
+        "email": "johnsquare@adventurerafting.com",
+        "biography": "John Square has been rafting since he was 18 years old. He was first introduced when his befriend Sally Kentmire (our top Kayaking guide) took him on a rafting adventure down the Salmon River. Ever since than he has been going on rafting adventures and after his 5th year of adventure he joined our team for a total of 8 years!"
+    },
+    {
+        "name": "Elliotte Troll",
+        "photo": 
+        {
+            "image": "elliotepic.jpg",
+            "description": "picture of elliotte troll"
+        },
+        "certification": "Level &#8546; Certificate in Rafting",
+        "experience": "4 years",
+        "email": "elliottetroll@adventurerafting.com",
+        "biography": "He went once as a boy with his dad when he was 8 years old. Elliotte had a bad experience with falling out of the raft the one time he went with his father and it had rained the whole time! Than he decided to try it again when he was 24 and conquer his fear of falling out and was successful and he fell in love with rafting. He is now apart of our team instilling confidence in everyone who wants to try rafting."
+    },
+    {
+        "name": "Sally Kentmire",
+        "photo":
+        {
+            "image": "sallypic.jpg",
+            "description": "picture of sally kentmire"
+        },
+        "certification": "Level &#8548; Certificate in Kayaking & level &#8547; in rafting",
+        "experience": "20 years",
+        "email": "sallykentmire@adventurerafting.com",
+        "biography": "Sally has been rafting and Kayaking with her family since she was 6 years old. Started rafting but preferred Kayaking more. She introduced her friend John Square when he was 18 and and they have been rafting together for 5 years. Sally went on to Kayak some of the most difficult rivers around. If you want to be challenged Sally will take you on some of the best rivers there is."
+    }
+]
