@@ -657,6 +657,9 @@ main section {
     padding-right: 15px;
   }
   /* === END WEATHER BOX STYLING */
+  .employeecards img {
+    height: 90%;
+  }
 }
 
 @media only screen and (min-width: 1028px) {
@@ -682,6 +685,9 @@ main section {
   }
   .employeecards section {
     grid-template-columns: 1fr 1fr;
+  }
+  .employeecards section img {
+    height: 100%;
   }
   /* === END RIVER CARD STYLING === */
   /* WEATHER BOX STYLING */
