@@ -657,9 +657,6 @@ main section {
     padding-right: 15px;
   }
   /* === END WEATHER BOX STYLING */
-  .employeecards img {
-    height: 90%;
-  }
 }
 
 @media only screen and (min-width: 1028px) {
