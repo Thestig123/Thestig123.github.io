@@ -4,7 +4,6 @@ fetch(jsonLink)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.log(jsonObject)
 
         for (i=0; i<3; i++) {
 

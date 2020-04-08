@@ -356,6 +356,16 @@ header h1 {
   margin: 0px;
 }
 
+.river-title {
+  font-family: "Permanent Marker", cursive;
+  background-color: #f0ead6;
+  padding-left: 5px;
+  margin-left: 8px;
+  max-width: 50%;
+  border-radius: 10px;
+  text-align: center;
+}
+
 .bannerimage {
   display: none;
 }
