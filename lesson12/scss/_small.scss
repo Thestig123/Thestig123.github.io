@@ -264,3 +264,26 @@ main {
   text-align: center;
 }
 /* === END GOOGLE EMBEDED MAP */
+
+form {
+  font-family: $textFontFamily;
+  text-align: left;
+  font-size: 1.5em;
+  fieldset {
+    border-radius: 5px;
+  }
+  input {
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  .required {
+    color: red;
+  }
+}
+
+.thankyou {
+  text-align: center;
+  margin: auto;
+  background-color: $riverCardBackground;
+  border-radius: 10px;
+}

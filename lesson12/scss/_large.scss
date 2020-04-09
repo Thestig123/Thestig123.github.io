@@ -42,3 +42,12 @@ body {
 .contact-us-body {
     grid-template-rows: 1fr;
 }
+
+.thankyou {
+    text-align: center;
+    margin: auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }

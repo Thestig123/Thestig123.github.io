@@ -605,6 +605,32 @@ main {
 }
 
 /* === END GOOGLE EMBEDED MAP */
+form {
+  font-family: "Baloo Thambi 2", cursive;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+form fieldset {
+  border-radius: 5px;
+}
+
+form input {
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+form .required {
+  color: red;
+}
+
+.thankyou {
+  text-align: center;
+  margin: auto;
+  background-color: #f0ead6;
+  border-radius: 10px;
+}
+
 @media only screen and (min-width: 560px) {
   /* GENERAL WEBPAGE STYLING */
   body {
@@ -719,5 +745,13 @@ main {
   /* === END WEATHER BOX STYLING === */
   .contact-us-body {
     grid-template-rows: 1fr;
+  }
+  .thankyou {
+    text-align: center;
+    margin: auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
