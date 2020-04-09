@@ -31,7 +31,7 @@ header {
         white-space: nowrap;
         transition: 0.3s;
     }
-    h3:hover {
+    h3:hover , .active{
         background-color: #006d73;
         padding: 15px;
     }
@@ -79,3 +79,11 @@ section.weather-info {
 .employeecards img {
     height: 90%;
   }
+
+/* GOOGLE EMBEDED MAP */
+
+main {
+    grid-template-rows: 1fr;
+    text-align: center;
+  }
+  /* === END GOOGLE EMBEDED MAP */

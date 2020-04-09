@@ -599,6 +599,12 @@ main section {
   padding-top: 5px;
 }
 
+/* GOOGLE EMBEDED MAP */
+main {
+  text-align: center;
+}
+
+/* === END GOOGLE EMBEDED MAP */
 @media only screen and (min-width: 560px) {
   /* GENERAL WEBPAGE STYLING */
   body {
@@ -631,7 +637,7 @@ main section {
     white-space: nowrap;
     transition: 0.3s;
   }
-  .nav2 h3:hover {
+  .nav2 h3:hover, .nav2 .active {
     background-color: #006d73;
     padding: 15px;
   }
@@ -670,6 +676,12 @@ main section {
   .employeecards img {
     height: 90%;
   }
+  /* GOOGLE EMBEDED MAP */
+  main {
+    grid-template-rows: 1fr;
+    text-align: center;
+  }
+  /* === END GOOGLE EMBEDED MAP */
 }
 
 @media only screen and (min-width: 1028px) {
@@ -705,4 +717,7 @@ main section {
     font-size: 1.5em;
   }
   /* === END WEATHER BOX STYLING === */
+  .contact-us-body {
+    grid-template-rows: 1fr;
+  }
 }
