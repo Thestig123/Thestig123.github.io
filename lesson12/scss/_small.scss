@@ -285,6 +285,17 @@ main th {
   white-space: nowrap;
 }
 
+.reservations {
+  background-color: $riverCardBackground;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
 .thankyou {
   text-align: center;
   margin: auto;
